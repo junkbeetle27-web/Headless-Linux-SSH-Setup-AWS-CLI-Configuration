@@ -1,4 +1,4 @@
-# Headless Linux SSH & AWS CLI Configuration 
+# 💻 Headless Linux SSH Setup & AWS CLI Configuration
 
 A beginner-friendly guide to remotely accessing a Linux machine that has no monitor (headless) via SSH, and setting up AWS CLI for cloud development.
 
@@ -10,7 +10,7 @@ A **headless server** is a computer running Linux that has no monitor, keyboard,
 
 ---
 
-## Prerequisites
+## 🔧 Prerequisites
 
 - A Linux machine (this guide uses **Ubuntu**)
 - A Windows computer on the same network
@@ -18,7 +18,7 @@ A **headless server** is a computer running Linux that has no monitor, keyboard,
 
 ---
 
-## Step 1 — Find Your Linux Machine's IP Address
+## 🔍 Step 1 — Find Your Linux Machine's IP Address
 
 Since there is no monitor, you need to find the Linux machine's IP address from your router.
 
@@ -41,7 +41,7 @@ You will need to know your host name so that you can find the IP for the intende
 
 ---
 
-## Step 2 — Enable SSH on the Linux Machine
+## 🔒 Step 2 — Enable SSH on the Linux Machine
 
 SSH allows your Windows machine to connect to and control your Linux machine remotely.
 
@@ -56,7 +56,7 @@ Once SSH is enabled you will never need the monitor again.
 
 ---
 
-## Step 3 — Open Port 22 in the Firewall
+## 🛡️ Step 3 — Open Port 22 in the Firewall
 
 Port 22 is the port SSH uses. If it is blocked, connections will time out.
 
@@ -73,7 +73,7 @@ sudo ufw status
 
 ---
 
-## Step 4 — SSH Into Your Linux Machine From Windows
+## 🖥️ Step 4 — SSH Into Your Linux Machine From Windows
 
 1. Open **Command Prompt** on your Windows machine
 2. Run the following command:
@@ -101,7 +101,7 @@ You are now connected!
 
 ---
 
-## Step 5 — Update Your Linux Machine
+## ⬆️ Step 5 — Update Your Linux Machine
 
 Before installing anything, update your package list and upgrade existing software:
 
@@ -112,7 +112,7 @@ sudo apt upgrade -y
 
 ---
 
-## Step 6 — Install AWS CLI
+## ☁️ Step 6 — Install AWS CLI
 
 AWS CLI lets you manage your Amazon Web Services resources from the command line.
 
@@ -138,7 +138,7 @@ aws --version
 
 ---
 
-## Step 7 — Configure AWS CLI
+## ⚙️ Step 7 — Configure AWS CLI
 
 Connect AWS CLI to your AWS account using your credentials:
 
@@ -164,7 +164,7 @@ This should return your AWS Account ID and user details confirming everything is
 
 ---
 
-## Troubleshooting
+## 🛠️ Troubleshooting
 
 | Problem | Solution |
 |---|---|
