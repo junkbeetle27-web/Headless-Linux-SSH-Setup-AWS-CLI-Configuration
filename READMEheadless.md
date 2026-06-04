@@ -33,6 +33,9 @@ Since there is no monitor, you need to find the Linux machine's IP address from 
 2. Log in using the credentials printed on the back of your router
 3. Look for a section called **Connected Devices** or **DHCP Clients**
 4. Find your Linux machine and note its IP address (e.g. `192.168.68.60`)
+If you manage your own router you can also log into the your device providers application and check the devices that are connected
+to you home router.
+You will need to know your host name so that you can find the IP for the intended device. 
 
 > **Note:** If the browser shows a "connection not private" warning, click **Advanced → Proceed**. This is normal for home routers.
 
