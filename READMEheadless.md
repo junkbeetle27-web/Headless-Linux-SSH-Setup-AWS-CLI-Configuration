@@ -61,6 +61,7 @@ Once SSH is enabled you will never need the monitor again.
 ## 🛡️ Step 3 — Open Port 22 in the Firewall
 
 Port 22 is the port SSH uses. If it is blocked, connections will time out.
+On your Linux machine run the following:
 
 ```bash
 sudo ufw allow ssh
